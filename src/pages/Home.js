@@ -25,14 +25,14 @@ const data = [
 const Home = () => {
   return (
     <div className="">
-      <div className="my-10 font-poppins">
+      <div className="my-14 font-poppins  md:leading-[65px]">
         <div className="text-light_green  md:text-[36px]  text-[30px] font-cover text-center">
           Success stories
         </div>
-        <div className="md:text-[56px] text-[35px]  mx-2 text-center ">
+        <div className="md:text-[56px] text-[35px]  mx-2 text-center font-medium  ">
           Every success journey{" "}
         </div>
-        <div className="md:text-[56px]  text-[35px] text-center ">
+        <div className="md:text-[56px]  text-[35px] text-center font-medium ">
           we’ve encountered.
         </div>
       </div>
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <img src="Frame2.png" alt="home_img" />
           <button className="hover:bg-black_hover_color hover:text-white w-[245px] h-[88px] border px-3 py-2 rounded-full  bg-bg_black text-white">
-            Explore More
+            Explore More -
           </button>
         </div>
       </div>

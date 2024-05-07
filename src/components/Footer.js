@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="text-center text-[18px] font-semibold">
         Talup 2023. All rights reserved
       </div>
-      <div className="text-center md:flex gap-3 font-semibold">
-        <div>Terms&Conditions</div>
-        <div>Privacy Policy</div>
+      <div className="text-center md:flex gap-10 font-semibold">
+        <div className="underline">Terms & Conditions</div>
+        <div className="underline">Privacy Policy</div>
       </div>
     </div>
   );

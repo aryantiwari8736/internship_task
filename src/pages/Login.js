@@ -66,7 +66,7 @@ const Login = () => {
                   setBtnCol("bg_black");
                 }}
                 type="submit"
-                className={` text-white w-[300px] md:w-[417px]  rounded-full py-4 bg-${btn_color}`}
+                className={` text-white w-[300px] md:w-[417px]  rounded-full py-4 bg-dark_grey hover:bg-bg_black`}
               >
                 {" "}
                 Submit{" "}
@@ -79,7 +79,7 @@ const Login = () => {
                 setBtnCol("bg_black");
               }}
               type="submit"
-              className={` text-white w-[300px] md:w-[417px]  rounded-full py-4 bg-${btn_color}`}
+              className={` text-white w-[300px] md:w-[417px]  rounded-full py-4 bg-dark_grey hover:bg-bg_black`}
             >
               {" "}
               Submit{" "}
